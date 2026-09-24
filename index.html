@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trigonometry Formulas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <!-- MathJax Configuration -->
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+<body>
+    <header class="hero">
+        <h1>Class 11 Mathematics</h1>
+        <h2>Trigonometry Formulas</h2>
+        <p>Master key formulas effortlessly with clean step-by-step references.</p>
+    </header>
+
+    <main class="container">
+
+        <!-- section 1 -->
+        <section class="formula-card">
+            <h2>Trigonometric Ratios</h2>
+            <div class="formula-grid">
+                <div class="formula-item">$$\sin\theta = \frac{\text{Perpendicular}} {\text{Hypotenuse}}$$</div>
+                <div class="formula-item">$$\cos\theta = \frac{\text{Base}} {\text{Hypotenuse}}$$</div>
+                <div class="formula-item">$$\tan\theta = \frac{\text{Perpendicular}} {\text{Base}}$$</div>
+                <div class="formula-item">$$cosec\theta = \frac{\text{Hypotenuse}} {\text{Perpendicular}}$$</div>
+                <div class="formula-item">$$\sec\theta = \frac{\text{Hypotenuse}} {\text{Base}}$$</div>
+                <div class="formula-item">$$\cot\theta = \frac{\text{Base}} {\text{Perpendicular}}$$</div>
+            </div>
+        </section>
+        
+        <!-- section 2 -->
+        <section class="formula-card">
+            <h2>Compound Angle Formulas </h2>
+            <div class="formula-grid">
+                <div class="formula-item">$$\sin(A+B) = \sin A\cos B+\cos A\sin B$$</div>
+                <div class="formula-item">$$\sin(A-B) = \sin A\cos B-\cos A\sin B$$</div>
+                <div class="formula-item">$$\cos(A+B) = \cos A\cos B-\sin A\sin B$$</div>
+                <div class="formula-item">$$\cos(A-B) = \cos A\cos B+\sin A\sin B$$</div>
+                <div class="formula-item">$$\tan(A+B)=\frac{\tan A+\tan B}{1-\tan A\tan B}$$</div>
+                <div class="formula-item">$$\tan(A-B)=\frac{\tan A-\tan B}{1+\tan A\tan B}$$</div>
+            </div>
+        </section>
+
+        <!-- section 3 -->
+        <section class="formula-card">
+            <h2>Transformation Formulas</h2>
+            <div class="formula-grid">
+                <div class="formula-item">$$\sin(A+B)+\sin(A-B) = 2\sin A\cos B$$</div>
+                <div class="formula-item">$$\sin(A+B)-\sin(A-B) = 2\cos A\sin B$$</div>
+                <div class="formula-item">$$\cos(A+B)+\cos(A-B) = 2\cos A\cos B$$</div>
+                <div class="formula-item">$$\cos(A+B)-\cos(A-B) = -2\sin A\sin B$$</div>
+
+                <!-- Product to Sum Formulas -->
+                <div class="formula-item">$$2\sin X\cos Y = \sin(X+Y)+\sin(X-Y)$$</div>
+                <div class="formula-item">$$2\cos X\sin Y = \sin(X+Y)-\sin(X-Y)$$</div>
+                <div class="formula-item">$$2\cos X\cos Y = \cos(X+Y)+\cos(X-Y)$$</div>
+                <div class="formula-item">$$-2\sin X\sin Y = \cos(X+Y)-\cos(X-Y)$$</div>
+
+                <!-- Product to Sum Formulas -->
+                <div class="formula-item">$$\sin C + \sin D =
+                    2\sin\left(\frac{C+D}{2}\right)\cos\left(\frac{C-D}{2}\right)$$</div>
+                <div class="formula-item">$$\sin C - \sin D =
+                    2\cos\left(\frac{C+D}{2}\right)\sin\left(\frac{C-D}{2}\right)$$</div>
+                <div class="formula-item">$$\cos C + \cos D =
+                    2\cos\left(\frac{C+D}{2}\right)\cos\left(\frac{C-D}{2}\right)$$</div>
+                <div class="formula-item">$$\cos C - \cos D =
+                    -2\sin\left(\frac{C+D}{2}\right)\sin\left(\frac{C-D}{2}\right)$$</div>
+            </div>
+        </section>
+        <!-- section 4 -->
+        <section class="formula-card">
+            <h2>Multiple Angle Formulas</h2>
+            <div class="formula-grid">
+                <div class="formula-item">$$\sin 2\theta = 2\sin\theta\cos\theta$$</div>
+                <div class="formula-item">$$\cos 2\theta = \cos^2\theta - \sin^2\theta$$</div>
+                <div class="formula-item">$$\cos 2\theta = 2\cos^2\theta - 1$$</div>
+                <div class="formula-item">$$\cos 2\theta = 1 - 2\sin^2\theta$$</div>
+
+                <div class="formula-item">$$\tan 2\theta = \frac{2\tan\theta}{1-\tan^2\theta}$$</div>
+                <div class="formula-item">$$\sin 2\theta=\frac{2\tan\theta}{1+\tan^2\theta}$$</div>
+                <div class="formula-item">$$\cos 2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$</div>
+
+                <div class="formula-item">$$1-\cos^2\theta = 2\sin^2\theta$$</div>
+                <div class="formula-item">$$1+\cos^2\theta = 2\cos^2\theta$$</div>
+                <div class="formula-item">$$\sin 3X = 3\sin X - 4\sin^3 X$$</div>
+                <div class="formula-item">$$\cos 3X = 4\cos^3 X - 3\cos X$$</div>
+                <div class="formula-item">$$\tan 3X = \frac{3\tan X-3\cos X}{1-3\tan^2 X}$$</div>
+            </div>
+        </section>
+
+        <!-- section 5 -->
+        <section class="formula-card">
+            <h2>Cotangent Formulas</h2>
+            <div class="formula-grid">
+                <div class="formula-item">$$\cot(A+B) = \frac{\cot B\cot A-1}{\cot B+\cot A}$$</div>
+                <div class="formula-item">$$\cot(A-B) = \frac{\cot B\cot A+1}{\cot B-\cot A}$$</div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
